@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4F71BD1C87474000BD850F /* XToDoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F71BC1C87474000BD850F /* XToDoModel.m */; };
+		1F521CDC1C85F27700907BB6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F521CDB1C85F27700907BB6 /* AppKit.framework */; };
+		1F521CDE1C85F27700907BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F521CDD1C85F27700907BB6 /* Foundation.framework */; };
+		1F521CE51C85F27700907BB6 /* XcodeFindMyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F521CE41C85F27700907BB6 /* XcodeFindMyCode.m */; };
+		1F521CE81C85F27700907BB6 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F521CE71C85F27700907BB6 /* NSObject_Extension.m */; };
+		1F638CA21C8B0BC600DE0D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F638CA11C8B0BC600DE0D2B /* main.m */; };
+		1F638CA51C8B0BC600DE0D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F638CA41C8B0BC600DE0D2B /* AppDelegate.m */; };
+		1F638CAD1C8B0BC600DE0D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F638CAC1C8B0BC600DE0D2B /* Assets.xcassets */; };
+		1F638CB01C8B0BC600DE0D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F638CAE1C8B0BC600DE0D2B /* LaunchScreen.storyboard */; };
+		1F638CBC1C8B0BE300DE0D2B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F638CB71C8B0BE300DE0D2B /* DetailViewController.m */; };
+		1F638CBD1C8B0BE300DE0D2B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F638CB81C8B0BE300DE0D2B /* DetailViewController.xib */; };
+		1F638CBE1C8B0BE300DE0D2B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F638CBA1C8B0BE300DE0D2B /* RootViewController.m */; };
+		1F638CBF1C8B0BE300DE0D2B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F638CBB1C8B0BE300DE0D2B /* RootViewController.xib */; };
+		1F638CC31C8B0BEB00DE0D2B /* FMCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F638CC21C8B0BEB00DE0D2B /* FMCWindow.m */; };
+		1FA5C8461C85F77A00497948 /* NSView+MCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5C8451C85F77A00497948 /* NSView+MCLog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F4F71BB1C87474000BD850F /* XToDoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XToDoModel.h; sourceTree = "<group>"; };
+		1F4F71BC1C87474000BD850F /* XToDoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XToDoModel.m; sourceTree = "<group>"; };
+		1F521CD81C85F27700907BB6 /* XcodeFindMyCode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeFindMyCode.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F521CDB1C85F27700907BB6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1F521CDD1C85F27700907BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		1F521CE31C85F27700907BB6 /* XcodeFindMyCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeFindMyCode.h; sourceTree = "<group>"; };
+		1F521CE41C85F27700907BB6 /* XcodeFindMyCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeFindMyCode.m; sourceTree = "<group>"; };
+		1F521CE61C85F27700907BB6 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		1F521CE71C85F27700907BB6 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		1F521CE91C85F27700907BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F638C9E1C8B0BC600DE0D2B /* FindMyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F638CA11C8B0BC600DE0D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F638CA31C8B0BC600DE0D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F638CA41C8B0BC600DE0D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F638CAC1C8B0BC600DE0D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F638CAF1C8B0BC600DE0D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F638CB11C8B0BC600DE0D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F638CB61C8B0BE300DE0D2B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1F638CB71C8B0BE300DE0D2B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1F638CB81C8B0BE300DE0D2B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		1F638CB91C8B0BE300DE0D2B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1F638CBA1C8B0BE300DE0D2B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1F638CBB1C8B0BE300DE0D2B /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		1F638CC11C8B0BEB00DE0D2B /* FMCWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCWindow.h; sourceTree = "<group>"; };
+		1F638CC21C8B0BEB00DE0D2B /* FMCWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMCWindow.m; sourceTree = "<group>"; };
+		1FA5C8441C85F77A00497948 /* NSView+MCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+MCLog.h"; sourceTree = "<group>"; };
+		1FA5C8451C85F77A00497948 /* NSView+MCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+MCLog.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F521CD61C85F27700907BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F521CDC1C85F27700907BB6 /* AppKit.framework in Frameworks */,
+				1F521CDE1C85F27700907BB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F638C9B1C8B0BC600DE0D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F521CCF1C85F27700907BB6 = {
+			isa = PBXGroup;
+			children = (
+				1F521CDF1C85F27700907BB6 /* XcodeFindMyCode */,
+				1F638C9F1C8B0BC600DE0D2B /* FindMyCode */,
+				1F521CDA1C85F27700907BB6 /* Frameworks */,
+				1F521CD91C85F27700907BB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F521CD91C85F27700907BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F521CD81C85F27700907BB6 /* XcodeFindMyCode.xcplugin */,
+				1F638C9E1C8B0BC600DE0D2B /* FindMyCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F521CDA1C85F27700907BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F521CDB1C85F27700907BB6 /* AppKit.framework */,
+				1F521CDD1C85F27700907BB6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F521CDF1C85F27700907BB6 /* XcodeFindMyCode */ = {
+			isa = PBXGroup;
+			children = (
+				1FA5C8431C85F75400497948 /* Utils */,
+				1F521CE31C85F27700907BB6 /* XcodeFindMyCode.h */,
+				1F521CE41C85F27700907BB6 /* XcodeFindMyCode.m */,
+				1F521CE61C85F27700907BB6 /* NSObject_Extension.h */,
+				1F521CE71C85F27700907BB6 /* NSObject_Extension.m */,
+				1F521CE91C85F27700907BB6 /* Info.plist */,
+				1F521CE01C85F27700907BB6 /* Supporting Files */,
+			);
+			path = XcodeFindMyCode;
+			sourceTree = "<group>";
+		};
+		1F521CE01C85F27700907BB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F638C9F1C8B0BC600DE0D2B /* FindMyCode */ = {
+			isa = PBXGroup;
+			children = (
+				1F638CC01C8B0BEB00DE0D2B /* FindMyCode */,
+				1F638CB51C8B0BE300DE0D2B /* Controller */,
+				1F638CA31C8B0BC600DE0D2B /* AppDelegate.h */,
+				1F638CA41C8B0BC600DE0D2B /* AppDelegate.m */,
+				1F638CAC1C8B0BC600DE0D2B /* Assets.xcassets */,
+				1F638CAE1C8B0BC600DE0D2B /* LaunchScreen.storyboard */,
+				1F638CB11C8B0BC600DE0D2B /* Info.plist */,
+				1F638CA01C8B0BC600DE0D2B /* Supporting Files */,
+			);
+			path = FindMyCode;
+			sourceTree = "<group>";
+		};
+		1F638CA01C8B0BC600DE0D2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F638CA11C8B0BC600DE0D2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F638CB51C8B0BE300DE0D2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F638CB61C8B0BE300DE0D2B /* DetailViewController.h */,
+				1F638CB71C8B0BE300DE0D2B /* DetailViewController.m */,
+				1F638CB81C8B0BE300DE0D2B /* DetailViewController.xib */,
+				1F638CB91C8B0BE300DE0D2B /* RootViewController.h */,
+				1F638CBA1C8B0BE300DE0D2B /* RootViewController.m */,
+				1F638CBB1C8B0BE300DE0D2B /* RootViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F638CC01C8B0BEB00DE0D2B /* FindMyCode */ = {
+			isa = PBXGroup;
+			children = (
+				1F638CC11C8B0BEB00DE0D2B /* FMCWindow.h */,
+				1F638CC21C8B0BEB00DE0D2B /* FMCWindow.m */,
+			);
+			path = FindMyCode;
+			sourceTree = "<group>";
+		};
+		1FA5C8431C85F75400497948 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F71BB1C87474000BD850F /* XToDoModel.h */,
+				1F4F71BC1C87474000BD850F /* XToDoModel.m */,
+				1FA5C8441C85F77A00497948 /* NSView+MCLog.h */,
+				1FA5C8451C85F77A00497948 /* NSView+MCLog.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F521CD71C85F27700907BB6 /* XcodeFindMyCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F521CEC1C85F27700907BB6 /* Build configuration list for PBXNativeTarget "XcodeFindMyCode" */;
+			buildPhases = (
+				1F521CD41C85F27700907BB6 /* Sources */,
+				1F521CD51C85F27700907BB6 /* Resources */,
+				1F521CD61C85F27700907BB6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeFindMyCode;
+			productName = XcodeFindMyCode;
+			productReference = 1F521CD81C85F27700907BB6 /* XcodeFindMyCode.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1F638C9D1C8B0BC600DE0D2B /* FindMyCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F638CB41C8B0BC600DE0D2B /* Build configuration list for PBXNativeTarget "FindMyCode" */;
+			buildPhases = (
+				1F638C9A1C8B0BC600DE0D2B /* Sources */,
+				1F638C9B1C8B0BC600DE0D2B /* Frameworks */,
+				1F638C9C1C8B0BC600DE0D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyCode;
+			productName = FindMyCode;
+			productReference = 1F638C9E1C8B0BC600DE0D2B /* FindMyCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F521CD01C85F27700907BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "lyeah company";
+				TargetAttributes = {
+					1F521CD71C85F27700907BB6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1F638C9D1C8B0BC600DE0D2B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1F521CD31C85F27700907BB6 /* Build configuration list for PBXProject "XcodeFindMyCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F521CCF1C85F27700907BB6;
+			productRefGroup = 1F521CD91C85F27700907BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F521CD71C85F27700907BB6 /* XcodeFindMyCode */,
+				1F638C9D1C8B0BC600DE0D2B /* FindMyCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F521CD51C85F27700907BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F638C9C1C8B0BC600DE0D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F638CB01C8B0BC600DE0D2B /* LaunchScreen.storyboard in Resources */,
+				1F638CBD1C8B0BE300DE0D2B /* DetailViewController.xib in Resources */,
+				1F638CBF1C8B0BE300DE0D2B /* RootViewController.xib in Resources */,
+				1F638CAD1C8B0BC600DE0D2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F521CD41C85F27700907BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA5C8461C85F77A00497948 /* NSView+MCLog.m in Sources */,
+				1F521CE51C85F27700907BB6 /* XcodeFindMyCode.m in Sources */,
+				1F4F71BD1C87474000BD850F /* XToDoModel.m in Sources */,
+				1F521CE81C85F27700907BB6 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F638C9A1C8B0BC600DE0D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F638CA51C8B0BC600DE0D2B /* AppDelegate.m in Sources */,
+				1F638CA21C8B0BC600DE0D2B /* main.m in Sources */,
+				1F638CBC1C8B0BE300DE0D2B /* DetailViewController.m in Sources */,
+				1F638CC31C8B0BEB00DE0D2B /* FMCWindow.m in Sources */,
+				1F638CBE1C8B0BE300DE0D2B /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F638CAE1C8B0BC600DE0D2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F638CAF1C8B0BC600DE0D2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F521CEA1C85F27700907BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1F521CEB1C85F27700907BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		1F521CED1C85F27700907BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XcodeFindMyCode/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyeah.XcodeFindMyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		1F521CEE1C85F27700907BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XcodeFindMyCode/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyeah.XcodeFindMyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+		1F638CB21C8B0BC600DE0D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FindMyCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyeah.FindMyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F638CB31C8B0BC600DE0D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FindMyCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyeah.FindMyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F521CD31C85F27700907BB6 /* Build configuration list for PBXProject "XcodeFindMyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F521CEA1C85F27700907BB6 /* Debug */,
+				1F521CEB1C85F27700907BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F521CEC1C85F27700907BB6 /* Build configuration list for PBXNativeTarget "XcodeFindMyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F521CED1C85F27700907BB6 /* Debug */,
+				1F521CEE1C85F27700907BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F638CB41C8B0BC600DE0D2B /* Build configuration list for PBXNativeTarget "FindMyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F638CB21C8B0BC600DE0D2B /* Debug */,
+				1F638CB31C8B0BC600DE0D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F521CD01C85F27700907BB6 /* Project object */;
+}
