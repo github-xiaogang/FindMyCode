@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "FMCWindow.h"
 #import "RootViewController.h"
+#import "FindMyCode.h"
 
 @interface AppDelegate ()
 
@@ -16,12 +16,8 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    FMCWindow * window = [[FMCWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    //set trigger gesture recognizer(long press using 2 or 3 finger supported);
-    [window setTriggerMode:FMCTriggerModeTwoFingerLongPress];
+    UIWindow * window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window = window;
     RootViewController * rootVC = [[RootViewController alloc] init];
     UINavigationController * nvc = [[UINavigationController alloc] initWithRootViewController:rootVC];

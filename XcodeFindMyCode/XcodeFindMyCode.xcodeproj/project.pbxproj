@@ -20,7 +20,7 @@
 		1F638CBD1C8B0BE300DE0D2B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F638CB81C8B0BE300DE0D2B /* DetailViewController.xib */; };
 		1F638CBE1C8B0BE300DE0D2B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F638CBA1C8B0BE300DE0D2B /* RootViewController.m */; };
 		1F638CBF1C8B0BE300DE0D2B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F638CBB1C8B0BE300DE0D2B /* RootViewController.xib */; };
-		1F638CC31C8B0BEB00DE0D2B /* FMCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F638CC21C8B0BEB00DE0D2B /* FMCWindow.m */; };
+		1F8BBCD31C8BE11B006D4170 /* FindMyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8BBCD21C8BE11B006D4170 /* FindMyCode.m */; };
 		1FA5C8461C85F77A00497948 /* NSView+MCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5C8451C85F77A00497948 /* NSView+MCLog.m */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +48,8 @@
 		1F638CB91C8B0BE300DE0D2B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1F638CBA1C8B0BE300DE0D2B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		1F638CBB1C8B0BE300DE0D2B /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		1F638CC11C8B0BEB00DE0D2B /* FMCWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCWindow.h; sourceTree = "<group>"; };
-		1F638CC21C8B0BEB00DE0D2B /* FMCWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMCWindow.m; sourceTree = "<group>"; };
+		1F8BBCD11C8BE11B006D4170 /* FindMyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMyCode.h; sourceTree = "<group>"; };
+		1F8BBCD21C8BE11B006D4170 /* FindMyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindMyCode.m; sourceTree = "<group>"; };
 		1FA5C8441C85F77A00497948 /* NSView+MCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+MCLog.h"; sourceTree = "<group>"; };
 		1FA5C8451C85F77A00497948 /* NSView+MCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+MCLog.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,8 +162,8 @@
 		1F638CC01C8B0BEB00DE0D2B /* FindMyCode */ = {
 			isa = PBXGroup;
 			children = (
-				1F638CC11C8B0BEB00DE0D2B /* FMCWindow.h */,
-				1F638CC21C8B0BEB00DE0D2B /* FMCWindow.m */,
+				1F8BBCD11C8BE11B006D4170 /* FindMyCode.h */,
+				1F8BBCD21C8BE11B006D4170 /* FindMyCode.m */,
 			);
 			path = FindMyCode;
 			sourceTree = "<group>";
@@ -290,9 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F638CA51C8B0BC600DE0D2B /* AppDelegate.m in Sources */,
+				1F8BBCD31C8BE11B006D4170 /* FindMyCode.m in Sources */,
 				1F638CA21C8B0BC600DE0D2B /* main.m in Sources */,
 				1F638CBC1C8B0BE300DE0D2B /* DetailViewController.m in Sources */,
-				1F638CC31C8B0BEB00DE0D2B /* FMCWindow.m in Sources */,
 				1F638CBE1C8B0BE300DE0D2B /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
